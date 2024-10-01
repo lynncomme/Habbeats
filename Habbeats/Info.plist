@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app requires access to health data to track the correct number of steps and improve your habits.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app requires access to health data to track your steps and improve your habits. We do not share this data with anyone.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>SourceSansPro-Regular.otf</string>

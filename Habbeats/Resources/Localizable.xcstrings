@@ -1,0 +1,250 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CompletedTasks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completed Tasks"
+          }
+        }
+      }
+    },
+    "Day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "day"
+          }
+        }
+      }
+    },
+    "Days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "days"
+          }
+        }
+      }
+    },
+    "EndTask" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End Task Immediately"
+          }
+        }
+      }
+    },
+    "Goal Ended" : {
+
+    },
+    "Goal progress: %lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Goal progress: %1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "GoalProgress" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goal progress: %d/%d"
+          }
+        }
+      }
+    },
+    "IncompleteTasks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incomplete Tasks"
+          }
+        }
+      }
+    },
+    "MainScreenDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your life is unique and invaluable. Spend it mindfully and effectively to become the best version of yourself. Our app helps you focus on important tasks and track the achievement of goals that truly matter. Every step and every moment is an opportunity for personal growth and self-improvement. Embrace the challenge, be attentive to your habits, and channel your energy into what makes you stronger and happier. Start today and watch your life transform for the better."
+          }
+        }
+      }
+    },
+    "MealsDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensure you consume three balanced meals each day to provide your body with essential nutrients, maintain energy levels, and support overall health. Balanced meals are key to sustaining vitality and well-being throughout the day."
+          }
+        }
+      }
+    },
+    "MealsTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eat 3 Balanced Meals"
+          }
+        }
+      }
+    },
+    "ReadDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spend at least 30 minutes daily reading to stimulate your mind and expand your knowledge. Reading not only provides valuable insights but also serves as a constructive escape from daily stress."
+          }
+        }
+      }
+    },
+    "ReadTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read 30 Minutes"
+          }
+        }
+      }
+    },
+    "SleepDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prioritize 7-8 hours of quality sleep each night to support physical recovery, cognitive function, and emotional stability. Adequate rest is crucial for maintaining overall health and well-being."
+          }
+        }
+      }
+    },
+    "SleepTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep 7-8 Hours"
+          }
+        }
+      }
+    },
+    "SocialMediaDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dedicate a full day to disconnecting from social media. This practice helps reduce distractions, improve concentration, and fosters a deeper connection with the present moment, enhancing mental clarity and overall well-being."
+          }
+        }
+      }
+    },
+    "SocialMediaTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Social Media Day"
+          }
+        }
+      }
+    },
+    "StreakText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streak: %d %@"
+          }
+        }
+      }
+    },
+    "TaskWillCompleteAutomatically" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Self-Completing Task"
+          }
+        }
+      }
+    },
+    "WalkDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achieve your daily step goal of 10,000 steps to boost cardiovascular health and enhance physical fitness. Consistent walking supports a healthier lifestyle and a more active day."
+          }
+        }
+      }
+    },
+    "WalkTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Walk 10,000 Steps"
+          }
+        }
+      }
+    },
+    "WaterDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commit to consuming at least 8 glasses of water each day. Proper hydration is essential for maintaining optimal bodily functions, supporting metabolic processes, and promoting overall health."
+          }
+        }
+      }
+    },
+    "WaterTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drink 8 Glasses of Water"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

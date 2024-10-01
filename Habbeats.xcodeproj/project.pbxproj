@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1586D8D2C8EE0B50024B1A7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1586D8C2C8EE0B50024B1A7 /* Task.swift */; };
+		E1EA8F062C8DC5A700A2392D /* HabbeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F052C8DC5A700A2392D /* HabbeatsApp.swift */; };
+		E1EA8F082C8DC5A700A2392D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F072C8DC5A700A2392D /* ContentView.swift */; };
+		E1EA8F0A2C8DC5A800A2392D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F092C8DC5A800A2392D /* Assets.xcassets */; };
+		E1EA8F0D2C8DC5A800A2392D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F0C2C8DC5A800A2392D /* Preview Assets.xcassets */; };
+		E1EA8F1C2C8DC65500A2392D /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F1B2C8DC65500A2392D /* TaskCard.swift */; };
+		E1EA8F1E2C8DC68200A2392D /* LockedTaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F1D2C8DC68200A2392D /* LockedTaskCard.swift */; };
+		E1EA8F202C8DC6B700A2392D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F1F2C8DC6B700A2392D /* SplashScreen.swift */; };
+		E1EA8F242C8DC6F800A2392D /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F212C8DC6F800A2392D /* SourceSansPro-Regular.otf */; };
+		E1EA8F252C8DC6F800A2392D /* Merriweather-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F222C8DC6F800A2392D /* Merriweather-Regular.otf */; };
+		E1EA8F262C8DC6F800A2392D /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F232C8DC6F800A2392D /* PlayfairDisplay-Regular.otf */; };
+		E1EA8F282C8DC72100A2392D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1EA8F272C8DC72100A2392D /* Localizable.xcstrings */; };
+		E1EA8F2A2C8DC7A000A2392D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F292C8DC7A000A2392D /* Constants.swift */; };
+		E1EA8F2C2C8DC7D100A2392D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA8F2B2C8DC7D100A2392D /* SceneDelegate.swift */; };
+		E1F4CAB52C905E9A0031BB29 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F4CAB42C905E9A0031BB29 /* TaskManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1586D8C2C8EE0B50024B1A7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E1CA63BE2C92B425007C1AD8 /* Habbeats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Habbeats.entitlements; sourceTree = "<group>"; };
+		E1EA8F022C8DC5A700A2392D /* Habbeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habbeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EA8F052C8DC5A700A2392D /* HabbeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabbeatsApp.swift; sourceTree = "<group>"; };
+		E1EA8F072C8DC5A700A2392D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1EA8F092C8DC5A800A2392D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EA8F0C2C8DC5A800A2392D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1EA8F1B2C8DC65500A2392D /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		E1EA8F1D2C8DC68200A2392D /* LockedTaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedTaskCard.swift; sourceTree = "<group>"; };
+		E1EA8F1F2C8DC6B700A2392D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E1EA8F212C8DC6F800A2392D /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		E1EA8F222C8DC6F800A2392D /* Merriweather-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.otf"; sourceTree = "<group>"; };
+		E1EA8F232C8DC6F800A2392D /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
+		E1EA8F272C8DC72100A2392D /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E1EA8F292C8DC7A000A2392D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1EA8F2B2C8DC7D100A2392D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1EA8F2F2C8DC94400A2392D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1F4CAB42C905E9A0031BB29 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1EA8EFF2C8DC5A700A2392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1586D822C8ED73D0024B1A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1586D8C2C8EE0B50024B1A7 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1EA8EF92C8DC5A700A2392D = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F042C8DC5A700A2392D /* Habbeats */,
+				E1EA8F032C8DC5A700A2392D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1EA8F032C8DC5A700A2392D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F022C8DC5A700A2392D /* Habbeats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1EA8F042C8DC5A700A2392D /* Habbeats */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA63BE2C92B425007C1AD8 /* Habbeats.entitlements */,
+				E1586D822C8ED73D0024B1A7 /* Models */,
+				E1EA8F2F2C8DC94400A2392D /* Info.plist */,
+				E1EA8F162C8DC5F800A2392D /* Views */,
+				E1EA8F152C8DC5E800A2392D /* Fonts */,
+				E1EA8F142C8DC5DC00A2392D /* Resources */,
+				E1EA8F132C8DC5CD00A2392D /* Utils */,
+				E1EA8F052C8DC5A700A2392D /* HabbeatsApp.swift */,
+				E1EA8F0B2C8DC5A800A2392D /* Preview Content */,
+				E1EA8F2B2C8DC7D100A2392D /* SceneDelegate.swift */,
+			);
+			path = Habbeats;
+			sourceTree = "<group>";
+		};
+		E1EA8F0B2C8DC5A800A2392D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F0C2C8DC5A800A2392D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1EA8F132C8DC5CD00A2392D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F292C8DC7A000A2392D /* Constants.swift */,
+				E1F4CAB42C905E9A0031BB29 /* TaskManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E1EA8F142C8DC5DC00A2392D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F272C8DC72100A2392D /* Localizable.xcstrings */,
+				E1EA8F092C8DC5A800A2392D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1EA8F152C8DC5E800A2392D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F222C8DC6F800A2392D /* Merriweather-Regular.otf */,
+				E1EA8F232C8DC6F800A2392D /* PlayfairDisplay-Regular.otf */,
+				E1EA8F212C8DC6F800A2392D /* SourceSansPro-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E1EA8F162C8DC5F800A2392D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F1A2C8DC63600A2392D /* Cards */,
+				E1EA8F072C8DC5A700A2392D /* ContentView.swift */,
+				E1EA8F1F2C8DC6B700A2392D /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1EA8F1A2C8DC63600A2392D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA8F1B2C8DC65500A2392D /* TaskCard.swift */,
+				E1EA8F1D2C8DC68200A2392D /* LockedTaskCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1EA8F012C8DC5A700A2392D /* Habbeats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EA8F102C8DC5A800A2392D /* Build configuration list for PBXNativeTarget "Habbeats" */;
+			buildPhases = (
+				E1EA8EFE2C8DC5A700A2392D /* Sources */,
+				E1EA8EFF2C8DC5A700A2392D /* Frameworks */,
+				E1EA8F002C8DC5A700A2392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Habbeats;
+			productName = Habbeats;
+			productReference = E1EA8F022C8DC5A700A2392D /* Habbeats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1EA8EFA2C8DC5A700A2392D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E1EA8F012C8DC5A700A2392D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = E1EA8EFD2C8DC5A700A2392D /* Build configuration list for PBXProject "Habbeats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1EA8EF92C8DC5A700A2392D;
+			productRefGroup = E1EA8F032C8DC5A700A2392D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1EA8F012C8DC5A700A2392D /* Habbeats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1EA8F002C8DC5A700A2392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EA8F262C8DC6F800A2392D /* PlayfairDisplay-Regular.otf in Resources */,
+				E1EA8F0D2C8DC5A800A2392D /* Preview Assets.xcassets in Resources */,
+				E1EA8F282C8DC72100A2392D /* Localizable.xcstrings in Resources */,
+				E1EA8F252C8DC6F800A2392D /* Merriweather-Regular.otf in Resources */,
+				E1EA8F0A2C8DC5A800A2392D /* Assets.xcassets in Resources */,
+				E1EA8F242C8DC6F800A2392D /* SourceSansPro-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1EA8EFE2C8DC5A700A2392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F4CAB52C905E9A0031BB29 /* TaskManager.swift in Sources */,
+				E1586D8D2C8EE0B50024B1A7 /* Task.swift in Sources */,
+				E1EA8F202C8DC6B700A2392D /* SplashScreen.swift in Sources */,
+				E1EA8F082C8DC5A700A2392D /* ContentView.swift in Sources */,
+				E1EA8F1E2C8DC68200A2392D /* LockedTaskCard.swift in Sources */,
+				E1EA8F2A2C8DC7A000A2392D /* Constants.swift in Sources */,
+				E1EA8F1C2C8DC65500A2392D /* TaskCard.swift in Sources */,
+				E1EA8F062C8DC5A700A2392D /* HabbeatsApp.swift in Sources */,
+				E1EA8F2C2C8DC7D100A2392D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1EA8F0E2C8DC5A800A2392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1EA8F0F2C8DC5A800A2392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1EA8F112C8DC5A800A2392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Habbeats/Habbeats.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbeats/Preview Content\"";
+				DEVELOPMENT_TEAM = 77NWM39CKL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habbeats/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Our app needs access to Health data to track your steps and monitor your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.konstantinromashin.Habbeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1EA8F122C8DC5A800A2392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Habbeats/Habbeats.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbeats/Preview Content\"";
+				DEVELOPMENT_TEAM = 77NWM39CKL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habbeats/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Our app needs access to Health data to track your steps and monitor your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.konstantinromashin.Habbeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1EA8EFD2C8DC5A700A2392D /* Build configuration list for PBXProject "Habbeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EA8F0E2C8DC5A800A2392D /* Debug */,
+				E1EA8F0F2C8DC5A800A2392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EA8F102C8DC5A800A2392D /* Build configuration list for PBXNativeTarget "Habbeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EA8F112C8DC5A800A2392D /* Debug */,
+				E1EA8F122C8DC5A800A2392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1EA8EFA2C8DC5A700A2392D /* Project object */;
+}
